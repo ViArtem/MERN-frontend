@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+    
+}
+
+#root{
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.App{
+    width: 1530px;
+    padding: 10px;
+ 
+}
+
+.otherBlock{
+    margin: 5px 0px 0px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    padding: 25px;
+    background-color:  #4aa748;
+    width: 270px;
+    height: 250px;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.socketColor{
+    background-color:  #38725f; 
+}
+
+.httpBlock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.socketBlock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.editBlock{
+    margin: 5px 0px 0px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    padding: 25px;
+    background-color:  #316ea3;
+    width: 370px;
+    height: 350px;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.userList{
+    width: 370px;
+    height: 570px;
+    background-color: rgb(64, 38, 192);
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.navBar{
+    width: 1110px;
+  
+    height: 50px;
+    border-radius: 15px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0px 25px;
+}
+
+.contactLi{
+    list-style-type: none;
+    margin-bottom: 0.35rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+
+/* Auth/ Regist */
+
+.containerForm{
+    font-size: 18px;
+    background-color: #9d9d9d;
+    width: 500px;
+    height: 600px;
+    padding: 125px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.history{
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: #316ea3;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
